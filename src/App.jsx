@@ -28,7 +28,7 @@ function App() {
 
     try {
       // GANTI STRING DI BAWAH DENGAN URL RENDER ANDA (contoh: https://api-hermes-agent.onrender.com/api/chat)
-      const response = await fetch('https://bot-hermes-15pr.onrender.com', {
+      const response = await fetch('https://bot-hermes-15pr.onrender.com/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: input })
